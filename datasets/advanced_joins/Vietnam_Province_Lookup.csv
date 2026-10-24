@@ -1,0 +1,60 @@
+province,province_name,region_8,north_south_zone
+101,Ha Noi,Red River Delta,North
+103,Hai Phong,Red River Delta,North
+105,Ha Tay,Red River Delta,North
+107,Hai Duong,Red River Delta,North
+109,Hung Yen,Red River Delta,North
+111,Ha Nam,Red River Delta,North
+113,Nam Dinh,Red River Delta,North
+115,Thai Binh,Red River Delta,North
+117,Ninh Binh,Red River Delta,North
+201,Ha Giang,North East,North
+203,Cao Bang,North East,North
+205,Lao Cai,North East,North
+209,Bac Kan,North East,North
+211,Tuyen Quang,North East,North
+213,Yen Bai,North East,North
+215,Thai Nguyen,North East,North
+217,Lang Son,North East,North
+219,Quang Ninh,North East,North
+221,Bac Giang,North East,North
+223,Phu Tho,North East,North
+225,Vinh Phuc,North East,North
+303,Son La,North West,North
+305,Hoa Binh,North West,North
+401,Thanh Hoa,North Central Coast,North
+403,Nghe An,North Central Coast,North
+405,Ha Tinh,North Central Coast,North
+407,Quang Binh,North Central Coast,North
+409,Quang Tri,North Central Coast,North
+411,Thua Thien - Hue,North Central Coast,North
+501,Da Nang,South Central Coast,South
+503,Quang Nam,South Central Coast,South
+505,Quang Ngai,South Central Coast,South
+507,Binh Dinh,South Central Coast,South
+509,Phu Yen,South Central Coast,South
+511,Khanh Hoa,South Central Coast,South
+601,Kon Tum,Central Highlands,South
+603,Gia Lai,Central Highlands,South
+605,Dak Lak,Central Highlands,South
+701,Ho Chi Minh City,South East,South
+703,Lam Dong,South East,South
+705,Ninh Thuan,South East,South
+707,Binh Phuoc,South East,South
+709,Tay Ninh,South East,South
+711,Binh Duong,South East,South
+713,Dong Nai,South East,South
+715,Binh Thuan,South East,South
+717,Ba Ria - Vung Tau,South East,South
+801,Long An,Mekong River Delta,South
+803,Dong Thap,Mekong River Delta,South
+805,An Giang,Mekong River Delta,South
+807,Tien Giang,Mekong River Delta,South
+809,Vinh Long,Mekong River Delta,South
+811,Ben Tre,Mekong River Delta,South
+813,Kien Giang,Mekong River Delta,South
+815,Can Tho,Mekong River Delta,South
+817,Tra Vinh,Mekong River Delta,South
+819,Soc Trang,Mekong River Delta,South
+821,Bac Lieu,Mekong River Delta,South
+823,Ca Mau,Mekong River Delta,South
