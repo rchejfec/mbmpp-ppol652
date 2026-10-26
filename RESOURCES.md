@@ -2,7 +2,7 @@
 
 **Complexity Seminar: How Do You Address Policy Problems with Data? (Fall 2026)**
 
-Beyond the short pre-course readings, these open-access books, practitioner guides, and official data portals are useful references to bookmark during the seminar and throughout the MPP program. Every item below links directly to its open-access edition or official portal.
+Beyond the short pre-course readings, these open-access books, practitioner guides, and official data portals are useful references to bookmark during the seminar and throughout the MPP program. Sections 1–3 apply to the full cohort; Sections 4–5 collect optional references and workflows for the **Advanced Stream**.
 
 ---
 
@@ -23,41 +23,7 @@ Beyond the short pre-course readings, these open-access books, practitioner guid
 
 ---
 
-## 3. Reproducible Pipelines, Code, Version Control & `uv`
-
-* Matthew Gentzkow & Jesse M. Shapiro (2014), [*Code and Data for the Social Sciences: A Practitioner's Guide*](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)
-* Arthur Turrell / Bank of England, [*Coding for Economists*](https://aeturrell.github.io/coding-for-economists/) — see especially [Setting Up VS Code](https://aeturrell.github.io/coding-for-economists/setup-ide.html) and [Command Line Basics](https://aeturrell.github.io/coding-for-economists/ug-command-line.html)
-* Grant McDermott, [*Data Science for Economists* (`EC 607`)](https://github.com/uo-ec607/lectures)
-* Rohan Alexander (2023), [*Telling Stories with Data: With Applications in R*](https://tellingstorieswithdata.com/)
-* Nick Huntington-Klein (2022), [*The Effect: An Introduction to Research Design and Causality*](https://theeffectbook.net/)
-
-### Understanding Version Control (Conceptual Git for Agentic Workflows)
-In an agent-assisted workflow, you can let the coding agent run the day-to-day Git commands for you—its main return on investment is giving you a clean history and a safety net when an agent modifies files autonomously. These two short, command-free reads explain *why* version control exists and what happens under the hood:
-* *The Turing Way* — [*Guide to Version Control*](https://book.the-turing-way.org/reproducible-research/vcs/) (a gentle, non-technical introduction to commits, diffs, and project history)
-* Jenny Bryan (2018), ["Excuse Me, Do You Have a Moment to Talk About Version Control?"](https://peerj.com/preprints/3159/), *The American Statistician*, 72(1), 20–27
-
-### Python Environments & `uv`
-Rather than installing packages into a global system Python (where conflicting versions and path issues quickly accumulate), we use **`uv`** to keep each project's Python version and libraries isolated and reproducible:
-* *Bite Code!* — [*Relieving Your Python Packaging Pain*](https://www.bitecode.dev/p/relieving-your-python-packaging-pain) & [*A Year of `uv`: Pros, Cons, and Should You Migrate*](https://www.bitecode.dev/p/a-year-of-uv-pros-cons-and-should) (why traditional Python installations break and how `uv` fixes them)
-* Astral — [*`uv`: Unified Python Packaging*](https://astral.sh/blog/uv-unified-python-packaging) | [Installing `uv`](https://docs.astral.sh/uv/getting-started/installation/) | [Working on Projects (`uv init`, `uv add`, `uv run`)](https://docs.astral.sh/uv/guides/projects/)
-
----
-
-## 4. AI-Empowered Economists & Policy Researchers (An Evolving Menu)
-
-There is no single canonical way to pair empirical economics or policy analysis with coding agents; the practices below are an evolving menu of choices from active researchers ranging from zero-code social science setups to full multi-agent repositories:
-
-* Chris Blattman (University of Chicago) — [*Claude Blattman: AI Workflows for Social Scientists*](https://claudeblattman.com/) ([GitHub repository](https://github.com/chrisblattman/claudeblattman)) — written specifically for social scientists with little or no software engineering background on moving from browser chat to a project folder, `CLAUDE.md`, and verification habits.
-* Benjamin Golub (Northwestern University) — [*Modern AI for Economics Research*](https://markusacademy.substack.com/p/modern-ai-for-economics-research) (Markus' Academy talk & notes) — a clear conceptual overview of why working inside an IDE and repository beats "the bureaucracy of browser tabs," alongside staged prompting and AI stress-testing.
-* Paul Goldsmith-Pinkham (Yale University) — [*Claude Code for Applied Economists*](https://markusacademy.substack.com/p/claude-code-for-applied-economists) (8-part short video/post tutorial) & [*Research in the Time of AI*](https://paulgp.substack.com/p/research-in-the-time-of-ai) — practical walkthrough of terminal/IDE agents, data wrangling, plan mode, and where human economic judgment remains essential.
-* Pedro H. C. Sant'Anna (Emory University) — [*Claude Code Academic Workflow (`claude-code-my-workflow`)*](https://github.com/pedrohcgs/claude-code-my-workflow) & [*AI Agents for Economic Research* (VoxDev Guide PDF)](https://voxdev.org/sites/default/files/2026-03/AI_Agents_for_Economic_Research.pdf) — an advanced, ready-to-fork template illustrating structured quality gates, reusable skills, and replication checks.
-* OpenEcon — [*AI-Research-Setup Guide*](https://github.com/hanlulong/AI-research-setup) (step-by-step macOS/Windows setup for economics students) & [*Awesome AI for Economists*](https://github.com/hanlulong/awesome-ai-for-economists) (living directory of tools and guides).
-* Anton Korinek (University of Virginia / NBER) — [*Generative AI for Economic Research* (`genaiforecon.org`)](https://www.genaiforecon.org/) — companion site to his *Journal of Economic Literature* survey mapping AI use cases across ideation, writing, coding, and data analysis.
-* Gábor Békés (Central European University) — [*Data Analysis with AI*](https://gabors-data-analysis.com/ai-course/) — applied empirical data-analysis exercises and prompts from the co-author of *Data Analysis for Business, Economics, and Policy*.
-
----
-
-## 5. Official Canadian & International Open Data Portals
+## 3. Official Canadian & International Open Data Portals
 
 ### McGill Library & Canadian Research Data Repositories
 * McGill University Library — [Data & Statistics Research Guide](https://libraryguides.mcgill.ca/data/home) | [Maps & Geospatial Data Guide](https://libraryguides.mcgill.ca/maps/home)
@@ -77,3 +43,39 @@ There is no single canonical way to pair empirical economics or policy analysis 
 * Our World in Data — [`ourworldindata.org`](https://ourworldindata.org/)
 * OECD — [OECD Data Explorer](https://data-explorer.oecd.org/)
 * Quality of Government (QoG) Institute — [QoG Standard Datasets](https://www.gu.se/en/quality-government/qog-data/data-downloads/standard-dataset)
+
+---
+
+## 4. Advanced Stream (Optional): Entry Points & Tooling
+
+### Go-To Entry Points (By Tool & Task)
+* **VS Code & Coding Agents for Social Science Research:** Paul Goldsmith-Pinkham (Yale University), [*Claude Code for Applied Economists*](https://markusacademy.substack.com/p/claude-code-for-applied-economists) (8-part short video/post walkthrough of VS Code + agent setup, plan mode, and data wrangling) & [*Research in the Time of AI*](https://paulgp.substack.com/p/research-in-the-time-of-ai)
+* **Coding & End-to-End Empirical Workflows (Python & R):**
+  * Arthur Turrell / Bank of England, [*Coding for Economists*](https://aeturrell.github.io/coding-for-economists/) — go-to entry point for Python, VS Code setup, and data wrangling in economics and policy
+  * Rohan Alexander (2023), [*Telling Stories with Data: With Applications in R*](https://tellingstorieswithdata.com/) — end-to-end empirical workflow from data acquisition and cleaning to communication
+  * Matthew Gentzkow & Jesse M. Shapiro (2014), [*Code and Data for the Social Sciences: A Practitioner's Guide*](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf) — concise guide to organizing folders, scripts, and reproducible pipelines
+* **Python Environments & Package Management (`uv`):** Astral, [*`uv` Documentation*](https://docs.astral.sh/uv/) (navigate the sidebar for *Installation* and *Working on Projects*)
+* **Understanding Version Control (Conceptual Git):** In an agentic workflow, the agent can run the day-to-day Git commands for you, provided you understand *why* commits, diffs, and project history matter:
+  * *The Turing Way* — [*Guide to Version Control*](https://book.the-turing-way.org/reproducible-research/vcs/)
+  * Jenny Bryan (2018), ["Excuse Me, Do You Have a Moment to Talk About Version Control?"](https://peerj.com/preprints/3159/), *The American Statistician*, 72(1), 20–27
+
+### Statistics & Empirical Design
+* **Research Design & Causal Inference:**
+  * Nick Huntington-Klein (2022), [*The Effect: An Introduction to Research Design and Causality*](https://theeffectbook.net/)
+  * Scott Cunningham (2021), [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/)
+* **Empirical Economics & Policy Data Analysis:**
+  * Gábor Békés & Gábor Kézdi (2021), [*Data Analysis for Business, Economics, and Policy*](https://gabors-data-analysis.com/), Cambridge University Press
+* **Graduate Data Science & Computing Lectures:**
+  * Grant McDermott (University of Oregon), [*Data Science for Economists* (`EC 607`)](https://github.com/uo-ec607/lectures) — lecture decks covering the shell, Git, data wrangling, and computing tools for empirical researchers
+
+---
+
+## 5. Advanced Stream (Optional): Evolving Menu of AI-Empowered Economist Workflows
+
+> **How to read this section:** Several economists and policy researchers have generously shared their personal AI setups, prompts, and lessons learned as the tooling evolves—often put together quickly, with substantial AI assistance, and across varying levels of polish. Treat these as an evolving menu to browse for ideas as you build your own workflows, rather than canonical templates to follow blindly.
+
+* Chris Blattman (University of Chicago) — [*Claude Blattman: AI Workflows for Social Scientists*](https://claudeblattman.com/) ([GitHub repository](https://github.com/chrisblattman/claudeblattman)) — accessible overview for social scientists on moving from browser chat to a project folder, `CLAUDE.md`, and verification habits.
+* Benjamin Golub (Northwestern University) — [*Modern AI for Economics Research*](https://markusacademy.substack.com/p/modern-ai-for-economics-research) (Markus' Academy talk & notes) — conceptual discussion of why working inside an IDE and repository beats browser tabs, alongside staged prompting and AI stress-testing.
+* Pedro H. C. Sant'Anna (Emory University) — [*Claude Code Academic Workflow (`claude-code-my-workflow`)*](https://github.com/pedrohcgs/claude-code-my-workflow) & [*AI Agents for Economic Research* (VoxDev Guide PDF)](https://voxdev.org/sites/default/files/2026-03/AI_Agents_for_Economic_Research.pdf) — an opinionated multi-agent repository template illustrating structured quality gates and reusable skills.
+* Gábor Békés (Central European University) — [*Data Analysis with AI*](https://gabors-data-analysis.com/ai-course/) — applied data-exploration and wrangling exercises with AI (useful detailed prompts and workflows, though heavily AI-generated in presentation).
+* OpenEcon — [*Awesome AI for Economists*](https://github.com/hanlulong/awesome-ai-for-economists) & [*AI-Research-Setup Guide*](https://github.com/hanlulong/AI-research-setup) — community directory and step-by-step installation guide.

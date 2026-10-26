@@ -4,7 +4,7 @@ Here are the curated datasets we will cover on Day 1. We have put these together
 
 The datasets and their source documentation are organized across **6 Policy Themes** below (plus companion join-bridge tables in [`advanced_joins/`](advanced_joins/)).
 
-> **How to view and download the datasets:** Do not rely on GitHub's browser preview to inspect CSV files—GitHub truncates or blocks web previews for files larger than 1 MB ("Sorry about that, but we can't show files that are this big right now"). To use any dataset, **download it to your computer** (click the file link, then click **Download raw file** / **Raw** in the top-right corner) or clone the repository locally.
+> **How to view and download the datasets:** Do not rely on GitHub's browser preview to inspect CSV files, as GitHub truncates or blocks web previews for larger files. To use any dataset, **download it to your computer** (click the file link, then click **Download raw file** / **Raw** in the top-right corner).
 
 ---
 
